@@ -51,16 +51,16 @@ global.blockJids = process.env.BLOCK_JID ||'120363169665426586@g.us' ;
 global.allowJids = process.env.ALLOW_JID ||'120363169665426586@g.us' ;
 global.email     = 'support@maher-zubair.tech' ; 
 global.github    = 'https://github.com/Maher-Zubair/SIGMA-MD' ;
-global.location  = 'Lahore, Pakistan' ;
+global.location  = 'Dodoma, Tanzania' ;
 global.website   = 'https://maher-zubair.tech' ; 
 global.maher_api = process.env.MAHER_API || `https://api.maher-zubair.tech/` ; // MY OWN OFFICIAL API WEBSITE, YOU CAN USE IT IN YOUR BOT OR PROJECT
 //=================================================================================
 
 
 //===========================[COMPULSORY VARIABLES]================================
-global.owner = process.env.OWNER_NUMBER  || '923466319114' ;  // ADD YOUR NUMBER WITHOUT +
+global.owner = process.env.OWNER_NUMBER  || '255629226007' ;  // ADD YOUR NUMBER WITHOUT +
 global.mongodb = process.env.MONGODB_URI || "" ;            // PUT MONGODB KEY HERE, WITHOUT MONGODB YOUR BOT WILL NOT RUN
-global.timezone  = process.env.TIME_ZONE || 'Asia/Karachi' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
+global.timezone  = process.env.TIME_ZONE || 'Dodoma/Tanzania' // ADD CORRECT TIMEZONE OR LEAVE IT SAME , OTHERWISE YOU GET ERROS
 //=================================================================================
 
 
@@ -76,8 +76,8 @@ module.exports = {
 
   //==============================[COMPULSORY]=====================================
   sessionName: process.env.SESSION_ID || '',              // PUT YOUR SESSION ID
-  botname: process.env.BOT_NAME       || 'sɪɢᴍᴀ-ᴍᴅ',         // ADD YOUR BOT NAME
-  ownername:  process.env.OWNER_NAME  || `ᴍᴀʜᴇʀ ᴢᴜʙᴀɪʀ`, // ADD YOUR NAME
+  botname: process.env.BOT_NAME       || 'majenzi jr',         // ADD YOUR BOT NAME
+  ownername:  process.env.OWNER_NAME  || `MAJENZI JR`, // ADD YOUR NAME
   HANDLERS: process.env.PREFIX        || '.',              // ADD YOUR BOT PREFIX
   WORKTYPE: process.env.WORKTYPE      || 'public',      // IF PRIVATE ONLY YOU CAN USE YOUR BOT, IF PUBLIC EVERYONE CAN USE YOUR BOT
   //================================================================================
